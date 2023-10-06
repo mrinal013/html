@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+
+.kw-brand-span {
+    background-color: #000000;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+}
+.navbar-nav {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+.intro-title {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 42.19px;
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-image: linear-gradient( #F6DA92, #D9D9D9 );
+}
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/******** Projects section *****************/
+#projects {
+    background-color: #C8D9D9;
+}
+#projects h1 {
+    text-align: center;
+}
+#projects p {
+    font-family: Helvetica;
+}
+.border-end {
+    position: relative;
+}
+.border-end::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -9px;
+}
+
+/************* Swiper ************/
+.swiper {
+    /* width: 600px; */
+    /* height: 600px; */
+}
+.bg-resume {
+    background-color: #7B7979;
+}
+
+/*************** Footer ***********/
+footer {
+    font-family: Helvetica;
+    background-image: linear-gradient( to right, #F6DA92, #D9D9D9 );
+}
